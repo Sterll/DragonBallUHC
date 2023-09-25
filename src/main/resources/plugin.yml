@@ -1,0 +1,19 @@
+name: DragonBallUHC
+version: '${project.version}'
+main: fr.yanis.dragonballuhc.DBUHCMain
+depend: [Citizens]
+commands:
+  dbuhcadmin:
+    description: Commande admin du plugin
+    usage: /dbuhcadmin <start|stop|reload|help>
+    permission: dbuhc.admin
+    aliases: [dbuhcadmin, dbadmin, dba]
+  dbuhc:
+    description: Commande principale du plugin
+    usage: /dbuhc <rolecommand>
+    aliases: [dbuhc, dbrole, dbuhcrole, db]
+
+permissions:
+  dbuhc.admin:
+    description: Permission admin du plugin
+    default: op

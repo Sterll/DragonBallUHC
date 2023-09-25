@@ -1,0 +1,6 @@
+game:
+  role_time: 5
+  pvp_time: 3
+  protection_time: 2
+  roles: []
+  inventory:
